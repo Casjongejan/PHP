@@ -27,16 +27,34 @@ for ($j =1; $j <= 10; $j = $j + 1){
 echo '------------------------<br>';
 $num1 = 0;
 $num2 = 1;
-for ($l =1; $l <= 1000; $l = $l + 1){
+for ($l =1; $l <= 999; $l = $l + 1)
+//999 cuz start at 0 :p
+{
     $num3 = $num2 + $num1;
     $num1 = $num2;
-    $num2 = $num3; "<br>" ;
-
-
+    $num2 = $num3;
+    "<br>";
 }
 echo $num3;
-echo '<<br>------------------------<br>';
-$colorcode = "white";
-echo' <form action="welcome.php" method="post">
-    Color: <input type="text" Colorcode="Colorcode">';
-echo "<body style='background-color:$colorcode'>";
+echo '<br>------------------------<br>';
+{
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+   print_r($_POST);
+}
+$colourcode = implode($_POST);
+echo' <form action="index.php" method="post">
+    color: <input type="text" name="Colourcode"><br>
+    <input type="submit">';
+echo "<body style='background-color:$colourcode '>";}
+echo '<br>------------------------<br>';
+/*if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    print_r($_POST);
+}
+
+
+
+echo '<br><form action="index.php" method="post">
+    Name: <input type="text" name="name"><br>
+age: <input type="text" name="age"><br>
+<input type="submit">
+</form>';*/
