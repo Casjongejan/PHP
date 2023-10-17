@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0df3741f-d88e-40e7-8d43-fcc1fa72bf5f" name="Changes" comment="Opdracht 10">
-      <change afterPath="$PROJECT_DIR$/013.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eindopdracht.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o10.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o11.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o12.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o14.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o15.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o16.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o17.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o18.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eindopdracht.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,6 +171,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">

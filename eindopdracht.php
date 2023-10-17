@@ -18,15 +18,15 @@ echo " 1 = writeable 0 = not writeable <br> ";
 foreach ($all as $a) {
 //    echo $a . "<br>";
     $full_path = $cwd . DIRECTORY_SEPARATOR . $a;
-    $dlm = date("F d Y H:i:s.", filemtime($a));
-    $fperm = is_writable($a);
-    $mt = mime_content_type($a);
+    $dlm = date("F d Y H:i:s.", filemtime($full_path));
+    $fperm = is_writable($full_path);
+    $mt = mime_content_type($full_path);
     $check = " ";
     $check2 = " ";
-    $test = file_get_contents($a);
+    $test = file_get_contents($full_path);
     //echo $full_path . "<br>";
     if (is_file($full_path)) {
-        $fsize = filesize($a) / 1024 / 1024;
+        $fsize = filesize($full_path) / 1024 / 1024;
         if (str_contains($mt, "text")) {
             $check = "is text";
            /* echo '<form action="eindopdracht.php" method="post">
