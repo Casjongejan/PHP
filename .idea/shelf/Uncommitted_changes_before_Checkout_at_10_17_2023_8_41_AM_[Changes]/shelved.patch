@@ -1,0 +1,14 @@
+Index: eindopdracht.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><a href=\"eindopdracht.php\">Home</a> <br>\r\n<?php\r\n\r\n$cwd = getcwd();\r\n\r\nif (isset($_GET['cwd'])) {\r\n    //echo \"Er is een dir aangeklikt\";\r\n    $cwd = $_GET['cwd'];\r\n}\r\n\r\n$all = scandir($cwd);\r\n$all = array_splice($all, 2);\r\n\r\n//print_r($all);\r\n\r\n//echo $cwd;\r\necho \" 1 = writeable 0 = not writeable <br> \";\r\nforeach ($all as $a) {\r\n//    echo $a . \"<br>\";\r\n    $full_path = $cwd . DIRECTORY_SEPARATOR . $a;\r\n    $dlm = date(\"F d Y H:i:s.\", filemtime($a));\r\n    $fperm = is_writable($a);\r\n    $mt = mime_content_type($a);\r\n    $check = \" \";\r\n    $check2 = \" \";\r\n    $test = file_get_contents($a);\r\n    //echo $full_path . \"<br>\";\r\n    if (is_file($full_path)) {\r\n        $fsize = filesize($a) / 1024 / 1024;\r\n        if (str_contains($mt, \"text\")) {\r\n            $check = \"is text\";\r\n           /* echo '<form action=\"eindopdracht.php\" method=\"post\">\r\n             <textarea name=\"\"></textarea>\r\n               <button type=\"submit\">overwrite</button> ';*/\r\n        } else {\r\n            $check = \"isn't text\";\r\n        }\r\n        if (str_contains($mt, \"image\")){\r\n            $check2 = \"is img\";\r\n        }\r\n        else{\r\n            $check2 = \"isn't img\";\r\n        }\r\n        echo \"[F] \" . \" \" . $mt . \" \" . $a . \"  \" . $dlm . '  ' . $fperm . \"  \" . $fsize . \"MB\" . \" \" . $check . \" \" . $check2 . \"<br>\";\r\n    } else {\r\n        echo '[D] <a href=\"eindopdracht.php?cwd=' . $cwd . DIRECTORY_SEPARATOR . $a . '\">' . $a . ' ' . $fperm . \"</a><br>\";\r\n    }\r\n}?>\r\n\r\n
+===================================================================
+diff --git a/eindopdracht.php b/eindopdracht.php
+--- a/eindopdracht.php	
++++ b/eindopdracht.php	
+@@ -47,3 +47,4 @@
+     }
+ }?>
+ 
++a
+\ No newline at end of file

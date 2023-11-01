@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df3741f-d88e-40e7-8d43-fcc1fa72bf5f" name="Changes" comment="Opdracht 10">
+    <list default="true" id="0df3741f-d88e-40e7-8d43-fcc1fa72bf5f" name="Changes" comment="Opdracht eind">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eindopdracht.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/opdracht17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/opdracht17.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5b88ab1b33765d9ef5859fd8589be49f4cd47447" />
+        <entry key="$PROJECT_DIR$" value="Test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +107,10 @@
       <workItem from="1697194427427" duration="2749000" />
       <workItem from="1697437715012" duration="4365000" />
       <workItem from="1697524181117" duration="538000" />
+      <workItem from="1697610351592" duration="7884000" />
+      <workItem from="1698650684812" duration="10161000" />
+      <workItem from="1698737643466" duration="357000" />
+      <workItem from="1698824201024" duration="2418000" />
     </task>
     <task id="LOCAL-00001" summary="g">
       <created>1687520669538</created>
@@ -159,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694007666888</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Opdracht eind">
+      <option name="closed" value="true" />
+      <created>1697533704200</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697533704200</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +211,7 @@
     <MESSAGE value="g" />
     <MESSAGE value="wow" />
     <MESSAGE value="Opdracht 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opdracht 10" />
+    <MESSAGE value="Opdracht eind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdracht eind" />
   </component>
 </project>

@@ -4,7 +4,7 @@
 $cwd = getcwd();
 
 if (isset($_GET['cwd'])) {
-    //echo "Er is een dir aangeklikt";
+
     $cwd = $_GET['cwd'];
 }
 
@@ -24,26 +24,36 @@ foreach ($all as $a) {
     $check = " ";
     $check2 = " ";
     $test = file_get_contents($full_path);
-    //echo $full_path . "<br>";
+    $ent = htmlentities($test);
+
+
+    $semifull_path = substr($full_path, 20, 220);
+    /*trim($full_path, "C:/"."xampp/"."htdocs/"."php/" );*/
+
     if (is_file($full_path)) {
         $fsize = filesize($full_path) / 1024 / 1024;
         if (str_contains($mt, "text")) {
-            $check = "is text";
-           /* echo '<form action="eindopdracht.php" method="post">
-             <textarea name=""></textarea>
-               <button type="submit">overwrite</button> ';*/
+            $check2 = "is text";
+
+
+            echo '<form action="eindopdracht.php" method="post">' .
+                '<textarea name="' . htmlentities($a) . '" rows="30" style="width: 700px; height: 200px;">' . htmlentities($ent) . ' </textarea>' .
+                ' <button type="submit">overwrite</button> <br>';
+
         } else {
             $check = "isn't text";
         }
-        if (str_contains($mt, "image")){
+        if (str_contains($mt, "image")) {
             $check2 = "is img";
-        }
-        else{
-            $check2 = "isn't img";
+            echo '<img src="' . $semifull_path . '" height="100px">';
+        } else {
+            $check = "isn't img";
         }
         echo "[F] " . " " . $mt . " " . $a . "  " . $dlm . '  ' . $fperm . "  " . $fsize . "MB" . " " . $check . " " . $check2 . "<br>";
+
     } else {
         echo '[D] <a href="eindopdracht.php?cwd=' . $cwd . DIRECTORY_SEPARATOR . $a . '">' . $a . ' ' . $fperm . "</a><br>";
     }
-}?>
+}
+?>
 
