@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0df3741f-d88e-40e7-8d43-fcc1fa72bf5f" name="Changes" comment="Opdracht eind">
+    <list default="true" id="0df3741f-d88e-40e7-8d43-fcc1fa72bf5f" name="Changes" comment="Opdracht eind done">
+      <change afterPath="$PROJECT_DIR$/alles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eindopdracht.php" beforeDir="false" afterPath="$PROJECT_DIR$/eindopdracht.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/opdracht17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/opdracht17.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/o15.php" beforeDir="false" afterPath="$PROJECT_DIR$/o15.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CassisFanta&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5f6345bd-81fe-4063-bf90-1ca668ca394f" />
+        <option name="url" value="https://github.com/CassisFanta/PHP.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -47,11 +63,19 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +134,18 @@
       <workItem from="1697610351592" duration="7884000" />
       <workItem from="1698650684812" duration="10161000" />
       <workItem from="1698737643466" duration="357000" />
-      <workItem from="1698824201024" duration="2418000" />
+      <workItem from="1698824201024" duration="2557000" />
+      <workItem from="1698996182508" duration="2241000" />
+      <workItem from="1701070547610" duration="34000" />
+      <workItem from="1701416193958" duration="912000" />
+      <workItem from="1701675849356" duration="3000" />
+      <workItem from="1706531934682" duration="1256000" />
+      <workItem from="1706869748905" duration="55000" />
+      <workItem from="1707741334606" duration="409000" />
+      <workItem from="1707741754475" duration="1637000" />
+      <workItem from="1710765094827" duration="78000" />
+      <workItem from="1710768544050" duration="632000" />
+      <workItem from="1711444705342" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="g">
       <created>1687520669538</created>
@@ -173,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697533704200</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Opdracht eind done">
+      <option name="closed" value="true" />
+      <created>1698827687873</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1698827687873</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +255,7 @@
     <MESSAGE value="wow" />
     <MESSAGE value="Opdracht 10" />
     <MESSAGE value="Opdracht eind" />
-    <option name="LAST_COMMIT_MESSAGE" value="Opdracht eind" />
+    <MESSAGE value="Opdracht eind done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opdracht eind done" />
   </component>
 </project>

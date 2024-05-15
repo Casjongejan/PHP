@@ -25,10 +25,8 @@ foreach ($all as $a) {
     $check2 = " ";
     $test = file_get_contents($full_path);
     $ent = htmlentities($test);
-
-
+    //HTMLentities zorgt er voor dat de spec char niet meer spec zijn waardoor code breekt
     $semifull_path = substr($full_path, 20, 220);
-    /*trim($full_path, "C:/"."xampp/"."htdocs/"."php/" );*/
 
     if (is_file($full_path)) {
         $fsize = filesize($full_path) / 1024 / 1024;
